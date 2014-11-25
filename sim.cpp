@@ -1,5 +1,5 @@
 //#define VERIFY
-#define NO_STATIC_KEYS
+//#define NO_STATIC_KEYS
 
 #include <iostream>
 #include <sstream>
@@ -88,7 +88,8 @@ using CryptoPP::HexDecoder;
 
 
 //~Function Typedefs-------------------------------------------------------------------
-typedef void (*SecretGenerator)(SecByteBlock &secret);
+typedef void (*SecretGenerator)(SecByteBlock &secret, 
+                                                        int *secretExchangeOverhead);
 typedef void (*SymmetricKeyGenerator)(SecByteBlock &secret, 
                                         byte *iv[], 
                                         int *ivLength,
@@ -182,36 +183,27 @@ void PrintBytes(byte *bytes, int size) {
 //TODO: REMOVE HALF THE COMPUTATIONS
 //~Protocols code-------------------------------------------------------------------
 //~Secret Generators=================================================================
-void GetSecret1(SecByteBlock &secret) {
+void GetSecret1(SecByteBlock &secret,
+                            int *secretExchangeOverhead) {
 
     byte secret1Bytes[SECRET_LENGTH];
     secret1.Encode(secret1Bytes, SECRET_LENGTH);
     secret.Assign(secret1Bytes, SECRET_LENGTH);
+    *secretExchangeOverhead = 0;
 }
 
-void GetSecret2(SecByteBlock &secret) {
+void GetSecret2(SecByteBlock &secret, 
+                            int *secretExchangeOverhead) {
 
     byte secret2Bytes[SECRET_LENGTH];
     secret2.Encode(secret2Bytes, SECRET_LENGTH);
     secret.Assign(secret2Bytes, SECRET_LENGTH);
-}
-
-void GetSecret3(SecByteBlock &secret) {
-
-    byte secret3Bytes[SECRET_LENGTH];
-    secret3.Encode(secret3Bytes, SECRET_LENGTH);
-    secret.Assign(secret3Bytes, SECRET_LENGTH);
-}
-
-void GetSecret4(SecByteBlock &secret) {
-
-    byte secret4Bytes[SECRET_LENGTH];
-    secret4.Encode(secret4Bytes, SECRET_LENGTH);
-    secret.Assign(secret4Bytes, SECRET_LENGTH);
+    *secretExchangeOverhead = 0;
 }
 
 //This EphemeralDH code taken from the cryptopp wiki page
-void EphemeralDH(SecByteBlock &secret) {
+void EphemeralDH(SecByteBlock &secret,
+                                    int *secretExchangeOverhead) {
 
     //Use pre-shared prime and generator------------------------------- 
     // RFC 5114, 1024-bit MODP Group with 160-bit Prime Order Subgroup
@@ -274,24 +266,33 @@ void EphemeralDH(SecByteBlock &secret) {
 
     //////////////////////////////////////////////////////////////////////////
     // Agreement
-    if(dh2A.AgreedValueLength() != dh2B.AgreedValueLength())
-        throw runtime_error("Shared secret size mismatch");
-
+    
     SecByteBlock sharedA(dh2A.AgreedValueLength());
-    SecByteBlock sharedB(dh2B.AgreedValueLength());
 
     if(!dh2A.Agree(sharedA, sprivA, eprivA, spubB, epubB))
         throw runtime_error("Failed to reach shared secret (A)");
 
+#ifdef VERIFY
+    SecByteBlock sharedB(dh2B.AgreedValueLength());
+
+    if(dh2A.AgreedValueLength() != dh2B.AgreedValueLength())
+        throw runtime_error("Shared secret size mismatch");
+
     if(!dh2B.Agree(sharedB, sprivB, eprivB, spubA, epubA))
         throw runtime_error("Failed to reach shared secret (B)");
+#endif
 
     //Copy shared key into passed in SecByteBlock
     secret.Assign(sharedA);
+
+    //Set overhead
+    //this is in two directions....
+    *secretExchangeOverhead = epubA.size();
 }
 
 //This ECDH code taken from the cryptopp wiki page
-void ECDHAgreement(SecByteBlock &secret) {
+void ECDHAgreement(SecByteBlock &secret,
+                                        int *secretExchangeOverhead) {
 
     OID CURVE = secp256r1();
     AutoSeededRandomPool prng;
@@ -304,12 +305,15 @@ void ECDHAgreement(SecByteBlock &secret) {
     dhA.GenerateKeyPair(prng, privA, pubA);
     dhB.GenerateKeyPair(prng, privB, pubB);
 
+    SecByteBlock sharedA(dhA.AgreedValueLength());
+    
+    const bool rtn1 = dhA.Agree(sharedA, privA, pubB);
+
+#ifdef VERIFY
+    SecByteBlock sharedB(dhB.AgreedValueLength());
     if(dhA.AgreedValueLength() != dhB.AgreedValueLength())
         throw runtime_error("Shared secret size mismatch");
 
-    SecByteBlock sharedA(dhA.AgreedValueLength()), sharedB(dhB.AgreedValueLength());
-
-    const bool rtn1 = dhA.Agree(sharedA, privA, pubB);
     const bool rtn2 = dhB.Agree(sharedB, privB, pubA);
     if(!rtn1 || !rtn2)
         throw runtime_error("Failed to reach shared secret (A)");
@@ -321,21 +325,23 @@ void ECDHAgreement(SecByteBlock &secret) {
     Integer a, b;
 
     a.Decode(sharedA.BytePtr(), sharedA.SizeInBytes());
-    //cout << "(A): " << std::hex << a << endl;
+    cout << "(A): " << std::hex << a << endl;
     b.Decode(sharedB.BytePtr(), sharedB.SizeInBytes());
-    //cout << "(B): " << std::hex << b << endl;
+    cout << "(B): " << std::hex << b << endl;
 
     const bool rtn4 = a == b;
     if(!rtn4)
         throw runtime_error("Failed to reach shared secret (C)");
-
-    //cout << "Agreed to shared secret" << endl;
+#endif
 
     secret.Assign(sharedA);
+
+    *secretExchangeOverhead = pubA.size();
 }
 
 //This ECMQVA code taken from the cryptopp wiki page
-void ECMQVAgreement(SecByteBlock &secret) {
+void ECMQVAgreement(SecByteBlock &secret, 
+                                            int *secretExchangeOverhead) {
 
     OID CURVE = secp256r1();
     AutoSeededRandomPool rng;
@@ -362,13 +368,16 @@ void ECMQVAgreement(SecByteBlock &secret) {
     // Ephemeral (temporary) key
     mqvB.GenerateEphemeralKeyPair(rng, eprivB, epubB);
 
-    if(mqvA.AgreedValueLength() != mqvB.AgreedValueLength())
-        throw runtime_error("Shared secret size mismatch");
-
-    SecByteBlock sharedA(mqvA.AgreedValueLength()), sharedB(mqvB.AgreedValueLength());
+    SecByteBlock sharedA(mqvA.AgreedValueLength());
 
     if(!mqvA.Agree(sharedA, sprivA, eprivA, spubB, epubB))
         throw runtime_error("Failed to reach shared secret (A)");
+
+#ifdef VERIFY
+    if(mqvA.AgreedValueLength() != mqvB.AgreedValueLength())
+        throw runtime_error("Shared secret size mismatch");
+
+    SecByteBlock sharedB(mqvB.AgreedValueLength());
 
     if(!mqvB.Agree(sharedB, sprivB, eprivB, spubA, epubA))
         throw runtime_error("Failed to reach shared secret (B)");
@@ -383,10 +392,11 @@ void ECMQVAgreement(SecByteBlock &secret) {
 
     if(ssa != ssb)
         throw runtime_error("Failed to reach shared secret (C)");
-
-    //cout << "Agreed to shared secret" << endl;
+#endif
 
     secret.Assign(sharedA);
+
+    *secretExchangeOverhead = epubA.size();
 }
 
 //~SYMMETRIC KEY GENERATORS===========================================================================
@@ -830,7 +840,10 @@ void Simulation(string &message,
                 SymmetricCipher symmetricCipher,
                 SymmetricDecipher symmetricDecipher,
                 MACCompute macCompute,
-                MACVerify macVerify) {
+                MACVerify macVerify,
+                int *secretOverhead,
+                int *macOverhead,
+                int *totalMessageSize) {
 
     string mac("");
     SecByteBlock secret(0);
@@ -842,7 +855,7 @@ void Simulation(string &message,
 #endif
 
     //secretGenerator
-    secretGenerator(secret);
+    secretGenerator(secret, secretOverhead);
 
     //symmetricKeyGenerator
     //Generate symmetric key and iv
@@ -872,29 +885,28 @@ void Simulation(string &message,
 
     //messageAuthentication
     macCompute(messageCiphertext, mac, key);
+    *macOverhead = mac.size();
 #ifdef VERIFY
     macVerify(messageCiphertext, mac, key);
 #endif
 
     delete iv;
+
+    *totalMessageSize = messageCiphertext.size() + mac.size();
 }
 
 //~Main runner-----------------------------------------------------------------------
-#define NUM_SECRET_GENS 7
+#define NUM_SECRET_GENS 5
 const static string secretGeneratorNames[] = {"Ephemeral Diffie-Hellman", 
                                                 "Elliptic Curve Diffie-Hellman",
                                                 "Elliptic Curve Menezes-Qu-Vanstone",
                                                 "Static Key 1", 
-                                                "Static Key 2", 
-                                                "Static Key 3", 
-                                                "Static Key 4"};
+                                                "Static Key 2"};
 const static SecretGenerator secretGenerators[] = {EphemeralDH, 
                                                     ECDHAgreement,
                                                     ECMQVAgreement,
                                                     GetSecret1, 
-                                                    GetSecret2, 
-                                                    GetSecret3, 
-                                                    GetSecret4};
+                                                    GetSecret2};
 
 #define NUM_SYMMETRICS 5
 const static string symmetricCipherNames[] = {"AES", 
@@ -927,36 +939,56 @@ const static MACCompute macVerifiers[] = {HMACVerify,
                                             CMACVerify,
                                             VMACVerify};
 
-#define COOLDOWN 5
-#define NUM_TRIALS 3
+#ifdef VERIFY
+#define NUM_MESSAGES 1
+//In Bytes
+#define MIN_MESSAGE_SIZE 2
+#define MAX_MESSAGE_SIZE 4
+#define NUM_TRIALS 1
+#define COOLDOWN 0
+#else
 #define NUM_MESSAGES 1000
 //In Bytes
 #define MIN_MESSAGE_SIZE 8
 #define MAX_MESSAGE_SIZE 1024 //4096
+#define NUM_TRIALS 3
+#define COOLDOWN 5
+#endif
 int main() {
 
     cout << endl;
 
-    time_t startTime, endTime, diffTime, trials[NUM_TRIALS];
-    double avgTime = 0;
-
+    //Test messages, no longer used
     string message("HI I ENCRYPT STUFF!");
     string messageCiphertext("");
 
     int numSecretGens = NUM_SECRET_GENS;
-
 #ifdef NO_STATIC_KEYS
-    numSecretGens -= 4;
+    numSecretGens -= 2;
 #endif
 
+    //Variables used for random message generation/storage
     AutoSeededRandomPool prng;
     SecByteBlock messageBytes;
 
+    //Timing fields used for getting averages
+    time_t startTime, endTime, diffTime, trials[NUM_TRIALS];
+    double avgTime = 0;
+
+    //Fields used to get feedback from "Simulation" function.
+    int secretOverhead = 0;
+    int macOverhead = 0;
+    int totalMessageSize = 0;
+
+    //Counter to keep track of # of combinations of crypto primitives
     int numCombinations = 0;
+    //Loop over SECRET GENERATORS
     for (int i = 0; i < numSecretGens; i++) {
 
+        //Loop over SYMMETRIC CRYPTOGRAPHY methods
         for (int j = 0; j < NUM_SYMMETRICS; j++) {
 
+            //Loop over MESSAGE AUTHENTICATION CODE (MAC) methods
             for (int k = 0; k < NUM_MACS; k++) {
 
                 cout << "Secret Generator: " << secretGeneratorNames[i] << endl
@@ -965,11 +997,20 @@ int main() {
 
                 numCombinations++;
 
-                for (int t = 0; t < NUM_TRIALS; t++) {
+                //=====Begin loops that affect runtime quantitatively=====
 
-                    for (int m = 0; m < NUM_MESSAGES; m++) {
+                //Run through a range of message sizes
+                for (int l = MIN_MESSAGE_SIZE; l < MAX_MESSAGE_SIZE; l *= 2) {
 
-                        for (int l = MIN_MESSAGE_SIZE; l < MAX_MESSAGE_SIZE; l *= 2) {
+                    cout << "Message size of " << l << " bytes" << endl;
+
+                    //Scale the number of messages sent in one sequence
+                    for (int m = 1; m <= NUM_MESSAGES; m++) {
+
+                        cout << m << " messages at once" << endl;
+
+                        //Repeated trials to ensure accuracy
+                        for (int t = 0; t < NUM_TRIALS; t++) {
 
                             messageBytes.New(l);
                             prng.GenerateBlock(messageBytes, messageBytes.size());
@@ -984,25 +1025,40 @@ int main() {
                                         symmetricCiphers[j],
                                         symmetricDeciphers[j],
                                         macComputers[k],
-                                        macVerifiers[k]);
+                                        macVerifiers[k],
+                                        &secretOverhead,
+                                        &macOverhead,
+                                        &totalMessageSize);
 
                             time(&endTime);
                             diffTime = endTime - startTime;
                             trials[t] = diffTime;
                         }
+
+                        cout << endl;
+
+                        //Report timings
+                        avgTime = 0;
+                        for (int m = 0; m < NUM_TRIALS; m++) {
+                            avgTime += trials[m];
+                        }
+                        cout << "Calced Average Time: " 
+                                << (avgTime / NUM_TRIALS) << endl;
+
+                        //Report communications overhead from scheme
+                        cout << "Secret Overhead: " << secretOverhead << " bytes" << endl
+                                << "MAC Overhead: " << macOverhead << " bytes" << endl
+                                << "Total Message Size: " << totalMessageSize << " bytes" << endl 
+                                << endl << endl;
                     }
+
+                    cout << endl;
 
                     //Sleep for resource cooldown between trials
                     sleep(COOLDOWN);
                 }
 
-                avgTime = 0;
-                for (int m = 0; m < NUM_TRIALS; m++) {
-                    avgTime += trials[m];
-                }
-                cout << "Calced Average Time: " 
-                        << (avgTime / NUM_TRIALS) << endl 
-                        << endl << endl;;
+                cout << endl;
             }
         }
     }
