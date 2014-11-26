@@ -7,24 +7,30 @@
     #endif
 #endif
 //#define NO_STATIC_KEYS
-//#define CRYPTOPP_DISABLE_UNCAUGHT_EXCEPTION 
 
 #include <iostream>
-#include <sstream>
-#include <cstdio>
-#include <ctime>
-
-#include <unistd.h>
-
-#include <stdexcept>
-
-using std::string;
-using std::stringstream;
 using std::cout;
 using std::endl;
 using std::cerr;
-using std::runtime_error;
+
+#include <sstream>
+using std::stringstream;
+
+#include <ctime>
 using std::time;
+#include <chrono>
+using namespace std::chrono;
+using std::chrono::high_resolution_clock;
+using std::chrono::nanoseconds;
+
+#include <cstdio>
+#include <unistd.h>
+
+#include <stdexcept>
+using std::runtime_error;
+
+using std::string;
+
 
 #include "cryptopp/osrng.h"
 using CryptoPP::AutoSeededRandomPool;
@@ -948,18 +954,16 @@ const static MACCompute macVerifiers[] = {HMACVerify,
                                             VMACVerify};
 
 #ifdef TEST
-#define NUM_MESSAGES 1
 //In Bytes
 #define MIN_MESSAGE_SIZE 2
 #define MAX_MESSAGE_SIZE 4
 #define NUM_TRIALS 1
 #define COOLDOWN 0
 #else
-#define NUM_MESSAGES 1000
 //In Bytes
 #define MIN_MESSAGE_SIZE 8
 #define MAX_MESSAGE_SIZE 4096
-#define NUM_TRIALS 3
+#define NUM_TRIALS 100
 #define COOLDOWN 5
 #endif
 int main() {
@@ -980,8 +984,10 @@ int main() {
     SecByteBlock messageBytes;
 
     //Timing fields used for getting averages
-    time_t startTime, endTime, diffTime, trials[NUM_TRIALS];
-    double avgTime = 0;
+    //Avg time will lose the decimals, but since we are counting nanoseconds...I think we're fine...
+    uint64_t avgTime = 0;
+    high_resolution_clock::time_point startTime, endTime, diffTime;
+    uint64_t trials[NUM_TRIALS];
 
     //Fields used to get feedback from "Simulation" function.
     int secretOverhead = 0;
@@ -989,7 +995,7 @@ int main() {
     int totalMessageSize = 0;
 
     //Counter to keep track of # of combinations of crypto primitives
-    int numCombinations = 0;
+    uint32_t numCombinations = 0;
     //Loop over SECRET GENERATORS
     for (int i = 0; i < numSecretGens; i++) {
 
@@ -1012,55 +1018,49 @@ int main() {
 
                     cout << "Message size of " << l << " bytes" << endl;
 
-                    //Scale the number of messages sent in one sequence
-                    for (int m = 1; m <= NUM_MESSAGES; m++) {
 
-                        cout << m << " messages at once" << endl;
+                    //Repeated trials to ensure accuracy
+                    for (int t = 0; t < NUM_TRIALS; t++) {
 
-                        //Repeated trials to ensure accuracy
-                        for (int t = 0; t < NUM_TRIALS; t++) {
+                        messageBytes.New(l);
+                        prng.GenerateBlock(messageBytes, messageBytes.size());
+                        message.assign((char *) messageBytes.BytePtr());
 
-                            messageBytes.New(l);
-                            prng.GenerateBlock(messageBytes, messageBytes.size());
-                            message.assign((char *) messageBytes.BytePtr());
+                        startTime = high_resolution_clock::now();
+                        messageCiphertext = "";                    
+                        Simulation(message, 
+                                    messageCiphertext,
+                                    secretGenerators[i],
+                                    symmetricKeyGenerators[j],
+                                    symmetricCiphers[j],
+                                    symmetricDeciphers[j],
+                                    macComputers[k],
+                                    macVerifiers[k],
+                                    &secretOverhead,
+                                    &macOverhead,
+                                    &totalMessageSize);
 
-                            time(&startTime);
-                            messageCiphertext = "";                    
-                            Simulation(message, 
-                                        messageCiphertext,
-                                        secretGenerators[i],
-                                        symmetricKeyGenerators[j],
-                                        symmetricCiphers[j],
-                                        symmetricDeciphers[j],
-                                        macComputers[k],
-                                        macVerifiers[k],
-                                        &secretOverhead,
-                                        &macOverhead,
-                                        &totalMessageSize);
-
-                            time(&endTime);
-                            diffTime = endTime - startTime;
-                            trials[t] = diffTime;
-                        }
-
-                        cout << endl;
-
-                        //Report timings
-                        avgTime = 0;
-                        for (int m = 0; m < NUM_TRIALS; m++) {
-                            avgTime += trials[m];
-                        }
-                        cout << "Calced Average Time: " 
-                                << (avgTime / NUM_TRIALS) << endl;
-
-                        //Report communications overhead from scheme
-                        cout << "Secret Overhead: " << secretOverhead << " bytes" << endl
-                                << "MAC Overhead: " << macOverhead << " bytes" << endl
-                                << "Total Message Size: " << totalMessageSize << " bytes" << endl 
-                                << endl << endl;
+                        endTime = high_resolution_clock::now();
+                        nanoseconds diffTime = duration_cast<nanoseconds>(endTime - startTime);
+                        trials[t] = diffTime.count();
                     }
 
                     cout << endl;
+
+                    //Report timings
+                    avgTime = 0;
+                    for (int m = 0; m < NUM_TRIALS; m++) {
+                        avgTime = avgTime + trials[m];
+                    }
+                    avgTime = avgTime / NUM_TRIALS;
+                    cout << "Calced Average Time: " 
+                            << avgTime << " nanoseconds" << endl;
+
+                    //Report communications overhead from scheme
+                    cout << "Secret Overhead: " << secretOverhead << " bytes" << endl
+                            << "MAC Overhead: " << macOverhead << " bytes" << endl
+                            << "Total Message Size: " << totalMessageSize << " bytes" << endl 
+                            << endl << endl;
 
                     //Sleep for resource cooldown between trials
                     sleep(COOLDOWN);
