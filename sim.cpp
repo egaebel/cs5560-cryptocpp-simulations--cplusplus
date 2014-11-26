@@ -1,5 +1,13 @@
 //#define VERIFY
+//#define TEST
+//If we Verify, we are testing, but not the other way around
+#ifdef VERIFY
+    #ifndef TEST
+        #define TEST
+    #endif
+#endif
 //#define NO_STATIC_KEYS
+//#define CRYPTOPP_DISABLE_UNCAUGHT_EXCEPTION 
 
 #include <iostream>
 #include <sstream>
@@ -18,71 +26,71 @@ using std::cerr;
 using std::runtime_error;
 using std::time;
 
-#include "osrng.h"
+#include "cryptopp/osrng.h"
 using CryptoPP::AutoSeededRandomPool;
 
-#include "integer.h"
+#include "cryptopp/integer.h"
 using CryptoPP::Integer;
 
-#include "secblock.h"
+#include "cryptopp/secblock.h"
 using CryptoPP::SecByteBlock;
 
-#include "filters.h"
+#include "cryptopp/filters.h"
 using CryptoPP::StringSource;
 using CryptoPP::StringSink;
 using CryptoPP::StreamTransformationFilter;
 using CryptoPP::HashFilter;
 using CryptoPP::HashVerificationFilter;
 
-#include "dh.h"
+#include "cryptopp/dh.h"
 using CryptoPP::DH;
 
-#include "dh2.h"
+#include "cryptopp/dh2.h"
 using CryptoPP::DH2;
 
-#include "oids.h"
+#include "cryptopp/oids.h"
 using CryptoPP::OID;
 
-#include "eccrypto.h"
+#include "cryptopp/eccrypto.h"
 using CryptoPP::ECP;
 using CryptoPP::ECDH;
 using CryptoPP::ECMQV;
 
 // ASN1 is a namespace, not an object
-#include "asn.h"
+#include "cryptopp/asn.h"
 using namespace CryptoPP::ASN1;
 
-#include "ccm.h"
+#include "cryptopp/ccm.h"
 using CryptoPP::CBC_Mode;
 
-#include "aes.h"
+#include "cryptopp/aes.h"
 using CryptoPP::AES;
 
-#include "idea.h"
+#include "cryptopp/idea.h"
 using CryptoPP::IDEA;
 
-#include "blowfish.h"
+#include "cryptopp/blowfish.h"
 using CryptoPP::Blowfish;
 
-#include "salsa.h"
+#include "cryptopp/salsa.h"
 using CryptoPP::Salsa20;
 
-#include "sosemanuk.h"
+#include "cryptopp/sosemanuk.h"
 using CryptoPP::Sosemanuk;
 
-#include "sha.h"
+#include "cryptopp/sha.h"
 using CryptoPP::SHA256;
 
-#include "hmac.h"
+#include "cryptopp/hmac.h"
 using CryptoPP::HMAC;
 
-#include "cmac.h"
+#include "cryptopp/cmac.h"
 using CryptoPP::CMAC;
 
-#include "vmac.h"
+#include "cryptopp/vmac.h"
 using CryptoPP::VMAC;
 
-#include "hex.h"
+#include "cryptopp/hex.h"
 using CryptoPP::HexEncoder;
 using CryptoPP::HexDecoder;
 
@@ -939,7 +947,7 @@ const static MACCompute macVerifiers[] = {HMACVerify,
                                             CMACVerify,
                                             VMACVerify};
 
-#ifdef VERIFY
+#ifdef TEST
 #define NUM_MESSAGES 1
 //In Bytes
 #define MIN_MESSAGE_SIZE 2
@@ -950,7 +958,7 @@ const static MACCompute macVerifiers[] = {HMACVerify,
 #define NUM_MESSAGES 1000
 //In Bytes
 #define MIN_MESSAGE_SIZE 8
-#define MAX_MESSAGE_SIZE 1024 //4096
+#define MAX_MESSAGE_SIZE 4096
 #define NUM_TRIALS 3
 #define COOLDOWN 5
 #endif
