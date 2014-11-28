@@ -103,7 +103,7 @@ using CryptoPP::HexDecoder;
 
 //~Function Typedefs-------------------------------------------------------------------
 typedef void (*SecretGenerator)(SecByteBlock &secret, 
-                                                        int *secretExchangeOverhead);
+                                    int *secretExchangeOverhead);
 typedef void (*SymmetricKeyGenerator)(SecByteBlock &secret, 
                                         byte *iv[], 
                                         int *ivLength,
@@ -215,8 +215,8 @@ void GetSecret2(SecByteBlock &secret,
     *secretExchangeOverhead = 0;
 }
 
-//This EphemeralDH code taken from the cryptopp wiki page
-void EphemeralDH(SecByteBlock &secret,
+//This EphemeralDHAgreement code taken from the cryptopp wiki page
+void EphemeralDHAgreement(SecByteBlock &secret,
                                     int *secretExchangeOverhead) {
 
     //Use pre-shared prime and generator------------------------------- 
@@ -306,7 +306,7 @@ void EphemeralDH(SecByteBlock &secret,
 
 //This ECDH code taken from the cryptopp wiki page
 void ECDHAgreement(SecByteBlock &secret,
-                                        int *secretExchangeOverhead) {
+                        int *secretExchangeOverhead) {
 
     OID CURVE = secp256r1();
     AutoSeededRandomPool prng;
@@ -322,6 +322,8 @@ void ECDHAgreement(SecByteBlock &secret,
     SecByteBlock sharedA(dhA.AgreedValueLength());
     
     const bool rtn1 = dhA.Agree(sharedA, privA, pubB);
+
+    //TODO: AUTHENTICATION
 
 #ifdef VERIFY
     SecByteBlock sharedB(dhB.AgreedValueLength());
@@ -761,7 +763,13 @@ void CMACCompute(string &plaintext, string &mac, SecByteBlock &key) {
 
     try
     {
-        CMAC<AES> cmac(key, key.size());
+        //Generate a key based on our key to avoid CBC attacks resulting
+        //from using the same key for encrypting the message as computing the CBC-MAC
+        SecByteBlock tempKey;
+        tempKey.CleanNew(SHA256::DIGESTSIZE);
+        SHA256().CalculateDigest(tempKey, key, key.size()); 
+
+        CMAC<AES> cmac(tempKey, tempKey.size());
 
         StringSource(plaintext, 
                         true, 
@@ -780,7 +788,13 @@ void CMACVerify(string &plaintext, string &mac, SecByteBlock &key) {
 
     try
     {
-        CMAC<AES> cmac(key, key.size());
+        //Generate a key based on our key to avoid CBC attacks resulting
+        //from using the same key for encrypting the message as computing the CBC-MAC
+        SecByteBlock tempKey;
+        tempKey.CleanNew(SHA256::DIGESTSIZE);
+        SHA256().CalculateDigest(tempKey, key, key.size()); 
+
+        CMAC<AES> cmac(tempKey, tempKey.size());
 
         StringSource((plaintext + mac), 
                         true, 
@@ -897,16 +911,26 @@ void Simulation(string &message,
     }
 #endif
 
-    //messageAuthentication
-    macCompute(messageCiphertext, mac, key);
-    *macOverhead = mac.size();
+    //AES & Blowfish both use CBC mode, so they have built in CBC-MAC!
+    if (!(macCompute == CMACCompute 
+            && (symmetricCipher == AESEncrypt 
+                || symmetricCipher == BlowfishEncrypt))) {
+
+        //messageAuthentication
+        macCompute(messageCiphertext, mac, key);
+        *macOverhead = mac.size();
 #ifdef VERIFY
-    macVerify(messageCiphertext, mac, key);
+        macVerify(messageCiphertext, mac, key);
 #endif
+    }
+    else {
+
+        *macOverhead = 0;
+    }
 
     delete iv;
 
-    *totalMessageSize = messageCiphertext.size() + mac.size();
+    *totalMessageSize = messageCiphertext.size() + *macOverhead;
 }
 
 //~Main runner-----------------------------------------------------------------------
@@ -916,30 +940,26 @@ const static string secretGeneratorNames[] = {"Ephemeral Diffie-Hellman",
                                                 "Elliptic Curve Menezes-Qu-Vanstone",
                                                 "Static Key 1", 
                                                 "Static Key 2"};
-const static SecretGenerator secretGenerators[] = {EphemeralDH, 
+const static SecretGenerator secretGenerators[] = {EphemeralDHAgreement, 
                                                     ECDHAgreement,
                                                     ECMQVAgreement,
                                                     GetSecret1, 
                                                     GetSecret2};
 
-#define NUM_SYMMETRICS 5
+#define NUM_SYMMETRICS 4
 const static string symmetricCipherNames[] = {"AES", 
-                                                "IDEA", 
                                                 "Blowfish",
                                                 "Salsa20", 
                                                 "Sosemanuk"};
 const static SymmetricKeyGenerator symmetricKeyGenerators[] = {AESKeyGeneration, 
-                                                                IDEAKeyGeneration,
                                                                 BlowfishKeyGeneration,
                                                                 Salsa20KeyGeneration,
                                                                 SosemanukKeyGeneration};
 const static SymmetricCipher symmetricCiphers[] = {AESEncrypt, 
-                                                    IDEAEncrypt,
                                                     BlowfishEncrypt,
                                                     Salsa20Encrypt, 
                                                     SosemanukEncrypt};
 const static SymmetricCipher symmetricDeciphers[] = {AESDecrypt,
-                                                        IDEADecrypt,
                                                         BlowfishDecrypt, 
                                                         Salsa20Decrypt, 
                                                         SosemanukDecrypt};
@@ -961,10 +981,10 @@ const static MACCompute macVerifiers[] = {HMACVerify,
 #define COOLDOWN 0
 #else
 //In Bytes
-#define MIN_MESSAGE_SIZE 8
-#define MAX_MESSAGE_SIZE 4096
+#define MIN_MESSAGE_SIZE 2
+#define MAX_MESSAGE_SIZE 32768 
 #define NUM_TRIALS 100
-#define COOLDOWN 5
+#define COOLDOWN 1
 #endif
 int main() {
 
@@ -1007,14 +1027,16 @@ int main() {
 
                 cout << "Secret Generator: " << secretGeneratorNames[i] << endl
                         << "Symmetric Cipher: " << symmetricCipherNames[j] << endl
-                        << "MAC: " << macNames[k] << endl << endl;
+                        << "MAC: " << macNames[k] << endl
+                        << "END COMBINATION HEADER DATUM" << endl
+                        << endl << endl;;
 
                 numCombinations++;
 
                 //=====Begin loops that affect runtime quantitatively=====
 
                 //Run through a range of message sizes
-                for (int l = MIN_MESSAGE_SIZE; l < MAX_MESSAGE_SIZE; l *= 2) {
+                for (int l = MIN_MESSAGE_SIZE; l <= MAX_MESSAGE_SIZE; l *= 2) {
 
                     cout << "Message size of " << l << " bytes" << endl;
 
@@ -1045,28 +1067,30 @@ int main() {
                         trials[t] = diffTime.count();
                     }
 
-                    cout << endl;
-
                     //Report timings
                     avgTime = 0;
                     for (int m = 0; m < NUM_TRIALS; m++) {
                         avgTime = avgTime + trials[m];
                     }
                     avgTime = avgTime / NUM_TRIALS;
-                    cout << "Calced Average Time: " 
+                    cout << "Average Time: " 
                             << avgTime << " nanoseconds" << endl;
 
                     //Report communications overhead from scheme
                     cout << "Secret Overhead: " << secretOverhead << " bytes" << endl
                             << "MAC Overhead: " << macOverhead << " bytes" << endl
-                            << "Total Message Size: " << totalMessageSize << " bytes" << endl 
+                            << "Total Message Size: " << totalMessageSize << " bytes" << endl;
+
+                    //Make parsing easier
+                    cout << "END MESSAGE SIZE DATUM"
                             << endl << endl;
 
                     //Sleep for resource cooldown between trials
                     sleep(COOLDOWN);
                 }
 
-                cout << endl;
+                cout << "END COMBINATION DATUM" << endl
+                     << endl << endl;
             }
         }
     }

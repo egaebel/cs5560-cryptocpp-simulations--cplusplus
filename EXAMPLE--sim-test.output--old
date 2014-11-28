@@ -1,0 +1,6842 @@
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: AES
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 140672710 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 142307720 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 140773110 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 140561450 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 140617320 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 140565390 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 141474140 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 176 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 143543490 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 272 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 143205120 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 240 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 154834320 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 560 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 141196750 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 224 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 143221850 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 160659430 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 192 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 142790140 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 192 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 140911820 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 176 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: AES
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 154627100 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 142406610 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 140879890 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 140574200 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 140588060 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 140720990 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 140758890 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 140494730 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 140680780 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 320 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 140487720 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 140546280 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 288 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 140484230 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 368 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 140631470 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 288 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 140704330 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 140799170 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: AES
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 140585810 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 140608400 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 142956690 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 141010540 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 140778960 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 141387300 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 140685380 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 141134550 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 140902480 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 400 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 140805700 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 416 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 140835810 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 140890610 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 140927470 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 368 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 140701090 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 784 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 140753840 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: Blowfish
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 141208670 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 154745390 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 143084490 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 155210960 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 141379700 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 141723350 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 104 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 141267690 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 168 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 155135340 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 141466110 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 280 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 141219130 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 208 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 141199570 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 142280560 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 320 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 141365210 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 140946770 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 141245880 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: Blowfish
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 140720410 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 141044940 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 156401040 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 140960840 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 140830520 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 140685570 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 141011150 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 136 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 140694290 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 141006900 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 192 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 140817740 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 140913140 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 142338770 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 141075800 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 584 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 140906730 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 120 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 140873500 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: Blowfish
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 155422240 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 142775880 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 141178240 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 141404680 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 141088940 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 141094630 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 140887810 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 140925070 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 140890840 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 512 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 141205620 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 600 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 141230410 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 856 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 141183690 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 5 bytes
+Total Message Size: 61 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 149139240 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 208 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 141186290 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 128 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 155381940 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 400 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: Salsa20
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 140273750 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 155635270 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 39 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 140387750 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 155805670 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 39 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 140197310 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 140454590 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 140331790 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 161 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 140666310 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 42 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 140328080 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 307 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 140547260 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 71 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 140400430 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 69 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 140491300 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 102 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 140312700 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 110 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 140486970 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 412 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 140424810 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 214 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: Salsa20
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 140527750 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 140477840 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 140682860 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 155830110 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 140362800 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 140481960 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 43 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 140658080 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 46 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 140603070 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 274 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 140809270 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 76 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 155849430 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 86 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 140819870 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 73 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 140641800 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 36 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 140481060 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 443 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 140328060 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 185 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 140463570 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 185 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: Salsa20
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 140456250 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 26 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 140596790 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 30 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 140327520 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 140537290 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 39 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 140342240 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 7 bytes
+Total Message Size: 17 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 140558080 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 66 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 140386110 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 152 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 140613140 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 204 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 140395340 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 84 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 140518330 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 468 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 141789230 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 171 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 140637730 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 140478740 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 185 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 155233150 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 332 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 140210680 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 132 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: Sosemanuk
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 140576650 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 140432120 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 34 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 140445320 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 140652260 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 140706230 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 65 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 140741330 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 79 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 140621770 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 75 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 140576640 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 135 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 140565060 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 150 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 140792140 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 140719270 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 66 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 140645430 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 81 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 140667230 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 221 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 140725980 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 84 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 140488840 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 172 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: Sosemanuk
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 140722890 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 140624580 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 140478570 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 140594420 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 140734150 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 140479280 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 140596510 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 145 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 140409680 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 272 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 140752740 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 50 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 158462470 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 147 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 143925400 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 141073900 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 73 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 140648390 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 140461670 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 116 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 140767710 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 54 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Ephemeral Diffie-Hellman
+Symmetric Cipher: Sosemanuk
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 159775040 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 6 bytes
+Total Message Size: 9 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 140484190 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 140513610 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 140500490 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 140550000 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 140605180 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 30 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 140501030 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 145 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 140549240 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 272 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 140388710 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 140870540 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 140 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 140744920 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 67 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 140593920 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 242 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 140555740 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 151 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 140632450 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 187 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 140534390 nanoseconds
+Secret Overhead: 128 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 136 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: AES
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 78182650 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 78107030 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 78377820 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 78432840 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78138490 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 78327010 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 78320900 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 176 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78280640 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 224 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 78248210 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 78455330 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 78572370 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 208 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 78270960 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 78344660 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 224 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78438120 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 224 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78593430 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: AES
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 79318270 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 78014180 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 78007290 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 77938600 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78092870 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 77814480 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 86078290 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 144 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78097610 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 272 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 78283690 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 528 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 78921920 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 480 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 86157870 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 78028050 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 928 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 78211350 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 208 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78240280 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78277140 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: AES
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 78453100 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 78205200 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 85896200 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 89845020 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78183340 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 79950220 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 78173580 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78369510 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 288 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 78338890 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 128 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 78219400 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 352 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 78229170 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 15 bytes
+Total Message Size: 319 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 78280900 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 128 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 78217920 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 304 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78637010 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 240 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78306620 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 176 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: Blowfish
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 78621790 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 78474440 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 78628850 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 78741670 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78458020 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 78636970 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 104 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 79105430 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78600840 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 136 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 78609110 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 78772440 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 136 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 78896520 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 78623010 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 216 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 78681800 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78953900 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 256 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78601990 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 480 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: Blowfish
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 78343500 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 78271700 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 96204730 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 79906720 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78254910 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 78375830 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 78551930 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 136 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78332200 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 200 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 78138030 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 78170560 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 78121170 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 208 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 78267200 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 78361700 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 352 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78519910 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78297840 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: Blowfish
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 78425510 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 78349990 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 78451180 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 9 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 78525080 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78659860 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 78629680 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 78690270 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 152 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78706380 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 280 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 78691950 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 256 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 78709110 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 120 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 78464610 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 104 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 96133140 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 536 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 78613890 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 192 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78694040 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 648 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78617120 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 552 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: Salsa20
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 78126400 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 77899110 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 39 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 77950900 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 78069040 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78244360 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 77997160 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 91 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 78032910 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 135 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 95251540 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 288 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 79788620 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 83 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 77754710 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 213 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 78106080 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 78135920 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 47 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 77866250 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 158 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78237900 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 162 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78046240 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 275 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: Salsa20
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 77906970 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 77940470 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 20 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 78093220 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 78177760 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78124100 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 78203700 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 51 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 78304370 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 145 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78033490 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 125 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 78150150 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 67 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 77654110 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 247 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 79204090 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 155 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 78145490 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 109 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 78120510 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 229 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78295190 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 353 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78177390 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 192 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: Salsa20
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 77679240 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 26 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 77948470 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 27 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 77889740 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 78494360 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 42 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 77954240 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 26 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 77997770 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 75 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 77968370 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78195710 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 36 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 77923720 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 208 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 77887130 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 240 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 77924440 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 66 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 77948760 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 74 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 78037530 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 646 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78204710 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 26 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78153790 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 215 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: Sosemanuk
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 78000580 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 77987350 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 36 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 78127650 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 78109170 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 51 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78054700 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 78043950 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 78089940 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 93 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78136690 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 189 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 77989390 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 420 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 78010210 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 382 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 78107060 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 97 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 78307760 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 77797790 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 378 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78286210 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 460 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78161030 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 57 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: Sosemanuk
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 77954570 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 78170940 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 20 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 77972030 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 78169670 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78101850 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 77906710 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 81 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 78220210 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 111 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78223340 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 274 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 78177410 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 42 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 78130520 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 93 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 78055430 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 76 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 78107940 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 172 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 78012230 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 67 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78274020 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 316 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 78230900 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 691 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Diffie-Hellman
+Symmetric Cipher: Sosemanuk
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 78115940 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 77999200 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 77948290 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 77960560 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 78075580 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 51 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 78137640 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 83 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 78120770 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 144 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 78061410 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 218 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 77985650 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 33 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 77878890 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 70 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 77825470 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 91 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 78043710 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 44 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 78060680 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 266 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 78249100 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 28 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 77942690 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 155 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: AES
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 166515990 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 166845630 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 166968530 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 167053010 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 166799280 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 168128280 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 166804180 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 176 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 166879930 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 304 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 166940820 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 192 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 166861310 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 528 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166477410 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 336 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 167093860 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 400 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 167181920 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 167325900 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 512 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 166969710 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 912 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: AES
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 166877420 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 166764450 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 166669370 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 167742780 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 166625400 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 166745330 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 167062200 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 144 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 166569840 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 166598200 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 368 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 166736490 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 496 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166370520 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 167239100 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 166718920 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 167025990 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 166885160 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 352 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: AES
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 166658180 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 166999210 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 166714820 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 166740630 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 167110410 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 11 bytes
+Total Message Size: 59 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 166877530 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 166863830 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 166804010 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 166715220 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 176 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 166670070 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166670820 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 592 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 166929600 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 544 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 166959040 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 336 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 167020220 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 192 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 166797260 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: Blowfish
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 167229880 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 167301350 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 167143530 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 167164750 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 167246420 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 167250520 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 167172740 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 168 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 167017880 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 166975910 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 552 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 166981420 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166690930 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 200 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 167588670 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 264 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 167300510 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 167430860 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 264 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 167314360 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 360 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: Blowfish
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 166953210 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 167118360 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 166948920 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 166980230 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 166983530 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 167096430 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 166929710 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 136 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 166887320 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 168 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 168144880 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 248 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 167009100 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166772110 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 208 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 167314810 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 200 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 167213130 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 167637040 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 448 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 167319350 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: Blowfish
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 167282230 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 167269090 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 167443770 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 167200000 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 167535600 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 167510460 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 167123150 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 3 bytes
+Total Message Size: 139 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 167155600 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 184 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 167235960 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 392 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 167179390 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 248 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166876400 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 232 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 167536850 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 736 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 167293060 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 167728940 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 167530270 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: Salsa20
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 166650840 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 166625440 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 39 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 166803170 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 166711020 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 166707230 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 166794870 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 83 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 167073020 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 61 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 166566960 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 149 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 166607350 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 116 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 166720000 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 45 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166597880 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 167070720 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 151 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 166874010 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 166966170 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 162 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 166638090 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 93 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: Salsa20
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 166794080 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 166612890 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 20 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 166519730 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 166589700 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 33 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 166597070 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 167002420 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 81 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 167162230 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 78 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 166736720 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 79 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 166540590 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 20 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 166539970 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 36 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166623470 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 93 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 167307010 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 166776580 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 73 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 167257260 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 89 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 168385440 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 231 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: Salsa20
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 166888730 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 26 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 166700710 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 27 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 166713000 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 166644610 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 166709420 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 58 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 166761250 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 167103940 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 151 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 166683880 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 92 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 166455270 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 134 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 166609440 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166434790 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 29 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 166898530 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 92 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 166752640 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 82 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 167489180 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 61 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 166648110 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: Sosemanuk
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 166685220 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 166657080 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 36 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 167041740 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 166899540 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 167187310 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 166792140 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 97 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 167292160 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 137 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 166669540 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 104 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 166782530 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 467 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 166671160 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 205 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166443580 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 239 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 166944960 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 167 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 166974070 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 237 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 167719630 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 61 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 167355860 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 65 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: Sosemanuk
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 166993210 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 166613150 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 20 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 166655320 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 166943120 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 33 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 166823140 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 166900480 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 81 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 167204500 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 45 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 166706410 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 73 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 166906920 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 171 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 166588480 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 195 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166586890 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 59 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 167041720 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 113 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 166694750 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 193 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 167386930 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 145 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 166971490 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 65 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Elliptic Curve Menezes-Qu-Vanstone
+Symmetric Cipher: Sosemanuk
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 166724570 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 166922700 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 20 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 167268210 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 167199290 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 33 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 166818010 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 167090090 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 167040280 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 118 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 166582040 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 166479820 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 84 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 166740820 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 27 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 166708850 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 85 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 167074700 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 154 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 166937650 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 280 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 185191870 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 55 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 168551890 nanoseconds
+Secret Overhead: 65 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 71 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: AES
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 774720 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 766700 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 788000 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 783530 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 847150 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 813780 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 821690 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 128 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 835650 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 304 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 844420 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 288 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 879560 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 128 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 861290 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 884710 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 272 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 877030 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 929320 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 240 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 911800 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 336 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: AES
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 579380 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 584890 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 580820 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 1185530 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 1246340 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 610670 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 633360 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 647440 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 240 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 636900 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 496 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 666030 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 651950 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 669520 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 464 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 662040 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 688 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 717610 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 432 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 715440 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 368 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: AES
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 743660 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 822320 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 787790 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 766840 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 766620 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 770150 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 796580 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 828070 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 823420 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 847070 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 272 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 832800 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 9 bytes
+Total Message Size: 137 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 854850 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 256 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 865610 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 868990 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 13 bytes
+Total Message Size: 29 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 879720 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 512 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: Blowfish
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 1151420 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 1145290 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 1171940 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 1164430 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 1178820 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 1185890 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 104 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 1201470 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 1187080 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 168 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 1230280 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 1193490 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 296 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 1257110 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 1262860 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 448 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 1241250 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 120 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 1257710 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 1368860 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 120 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: Blowfish
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 964860 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 979540 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 983440 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 978870 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 997020 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 975130 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 980200 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 136 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 1012900 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 996180 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 1046000 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 480 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 1014080 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 296 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 1035730 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 120 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 1060210 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 240 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 1049250 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 120 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 1068390 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 256 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: Blowfish
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 1173570 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 1143000 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 1642300 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 2383900 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 1187370 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 1170900 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 1238530 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 152 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 1195730 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 280 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 1197980 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 240 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 1247910 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 288 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 1270820 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 392 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 1232250 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 320 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 1238210 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 224 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 1254820 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 1290350 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: Salsa20
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 589590 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 592050 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 39 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 591940 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 585750 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 596830 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 65 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 605790 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 61 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 668350 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 642640 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 53 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 628820 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 125 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 646270 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 46 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 632550 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 402 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 640600 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 238 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 641690 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 42 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 705380 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 379 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 687170 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 196 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: Salsa20
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 632940 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 637640 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 618840 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 605400 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 33 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 602710 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 617550 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 83 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 618360 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 144 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 656220 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 29 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 684490 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 54 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 664660 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 697930 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 168 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 655790 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 122 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 674420 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 439 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 725080 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 146 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 706390 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 75 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: Salsa20
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 604850 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 26 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 565420 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 30 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 583100 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 572270 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 42 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 588080 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 58 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 578910 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 44 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 607280 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 90 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 594110 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 98 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 600310 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 44 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 618440 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 603810 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 374 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 625090 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 85 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 625020 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 174 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 634770 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 151 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 655610 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 177 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: Sosemanuk
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 629720 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 634630 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 39 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 639690 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 639790 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 634340 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 65 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 637150 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 90 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 664530 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 655120 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 198 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 690120 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 101 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 721180 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 121 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 666090 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 292 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 696280 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 153 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 720470 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 688570 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 319 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 741540 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 272 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: Sosemanuk
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 636110 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 636860 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 655290 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 636300 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 33 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 653940 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 650280 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 81 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 701060 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 140 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 682030 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 184 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 698550 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 684100 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 27 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 694860 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 706500 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 36 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 720620 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 728700 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 145 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 761040 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 18 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 1
+Symmetric Cipher: Sosemanuk
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 622890 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 610630 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 627870 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 607160 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 631660 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 613340 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 39 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 643810 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 127 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 644330 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 54 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 632010 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 271 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 642930 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 154 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 727730 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 1494650 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 55 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 654780 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 718420 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 36 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 699930 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: AES
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 765590 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 816750 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 769170 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 794850 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 800590 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 805010 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 853660 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 176 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 834630 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 256 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 881760 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 432 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 890200 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 192 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 863920 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 913740 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 224 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 874800 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 608 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 908720 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 224 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 903200 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 176 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: AES
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 577670 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 586550 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 585900 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 594200 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 603720 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 622280 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 80 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 627820 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 144 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 654940 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 272 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 645170 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 128 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 682520 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 320 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 775310 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 128 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 654670 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 336 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 663520 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 1360 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 762340 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 709390 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 224 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: AES
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 777240 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 8 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 779440 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 757400 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 6 bytes
+Total Message Size: 22 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 760680 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 816180 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 792440 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 788620 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 815730 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 288 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 838350 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 208 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 837940 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 592 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 850780 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 448 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 847160 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 560 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 844190 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 64 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 871410 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 1152 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 891150 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: Blowfish
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 1202170 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 1147060 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 1164250 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 1190330 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 1177240 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 1175230 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 104 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 1178650 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 112 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 1190400 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 224 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 1255880 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 168 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 1235210 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 304 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 1283690 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 1229990 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 1246660 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 424 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 1268980 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 1255000 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: Blowfish
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 962080 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 972880 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 8 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 986130 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 977770 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 976210 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 994980 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 72 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 979390 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 136 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 999650 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 1015890 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 424 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 1022570 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 1021130 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 192 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 1000580 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 1184 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 1012040 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 88 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 1067010 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 1039920 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 0 bytes
+Total Message Size: 392 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: Blowfish
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 1172880 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 1172450 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 1191220 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 1155310 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 40 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 1167720 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 1190770 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 56 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 1184060 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 3 bytes
+Total Message Size: 139 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 1194930 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 1241210 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 216 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 1232980 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 352 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 1223720 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 288 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 1226460 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 1240230 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 312 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 1265450 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 200 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 1276740 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 296 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: Salsa20
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 599640 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 590640 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 39 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 614740 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 594490 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 607620 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 57 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 610370 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 91 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 642610 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 86 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 617780 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 290 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 618210 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 195 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 634290 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 348 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 635540 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 229 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 647550 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 159 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 645480 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 299 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 660220 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 37 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 686970 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 278 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: Salsa20
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 650320 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 595550 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 612220 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 607960 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 33 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 629120 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 646890 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 33 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 648000 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 144 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 635790 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 38 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 642690 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 399 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 656980 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 146 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 651740 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 52 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 680200 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 462 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 688520 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 174 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 685920 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 185 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 710550 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 243 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: Salsa20
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 565230 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 26 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 565120 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 30 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 565190 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 26 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 563840 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 42 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 586520 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 58 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 579750 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 24 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 570680 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 9 bytes
+Total Message Size: 137 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 588020 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 152 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 635420 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 275 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 608560 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 98 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 618530 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 65 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 621080 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 77 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 637990 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 108 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 640360 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 639 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 674920 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 23 bytes
+Total Message Size: 52 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: Sosemanuk
+MAC: HMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 626300 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 35 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 664250 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 39 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 631520 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 650370 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 624330 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 65 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 640450 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 97 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 646170 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 652760 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 83 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 710140 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 160 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 663250 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 116 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 684020 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 213 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 667490 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 218 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 689040 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 724870 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 118 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 718560 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 32 bytes
+Total Message Size: 94 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: Sosemanuk
+MAC: CMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 637190 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 679080 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 637880 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 25 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 662290 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 33 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 641010 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 48 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 653460 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 68 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 660660 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 37 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 693240 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 274 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 700120 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 32 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 678350 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 96 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 688490 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 100 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 700420 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 19 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 733350 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 26 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 731700 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 82 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 779940 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 76 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Secret Generator: Static Key 2
+Symmetric Cipher: Sosemanuk
+MAC: VMAC
+END COMBINATION HEADER DATUM
+
+
+Message size of 2 bytes
+Average Time: 656760 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 16 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4 bytes
+Average Time: 610740 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 23 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8 bytes
+Average Time: 652990 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 18 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16 bytes
+Average Time: 604290 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 29 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32 bytes
+Average Time: 608720 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 49 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 64 bytes
+Average Time: 611990 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 41 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 128 bytes
+Average Time: 637770 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 144 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 256 bytes
+Average Time: 631380 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 29 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 512 bytes
+Average Time: 674360 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 79 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 1024 bytes
+Average Time: 676480 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 10 bytes
+Total Message Size: 119 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 2048 bytes
+Average Time: 644790 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 69 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 4096 bytes
+Average Time: 654240 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 54 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 8192 bytes
+Average Time: 660190 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 85 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 16384 bytes
+Average Time: 684290 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 115 bytes
+END MESSAGE SIZE DATUM
+
+Message size of 32768 bytes
+Average Time: 698180 nanoseconds
+Secret Overhead: 0 bytes
+MAC Overhead: 16 bytes
+Total Message Size: 230 bytes
+END MESSAGE SIZE DATUM
+
+END COMBINATION DATUM
+
+
+Total Number of Combinations: 60
